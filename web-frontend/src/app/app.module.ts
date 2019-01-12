@@ -9,6 +9,10 @@ import { RegisterComponent } from './register/register.component';
 import { IndividualComponent } from './register/individual/individual.component';
 import { OrganisationComponent } from './register/organisation/organisation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
+
 
 @NgModule({
   declarations: [
@@ -22,7 +26,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

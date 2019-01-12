@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e776429d-6318-4b0f-bc12-0930deebb922" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/organisation/Organisation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/organisation/OrganisationController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.5946548">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -69,7 +74,7 @@
             <entry file="file://$PROJECT_DIR$/volunteer/Volunteer.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="184">
-                  <caret line="8" column="32" lean-forward="true" selection-end-line="8" selection-end-column="45" />
+                  <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -78,7 +83,7 @@
             <entry file="file://$PROJECT_DIR$/organisation/Organisation.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="69">
-                  <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                  <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -86,8 +91,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/organisation/OrganisationController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="115">
+                  <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -108,8 +113,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/organisation/Organisation.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <state relative-caret-position="207">
+                  <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -149,12 +154,12 @@
         <option value="$PROJECT_DIR$/volunteer/Volunteer.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/volunteer/VolunteerController.js" />
-        <option value="$PROJECT_DIR$/organisation/Organisation.js" />
         <option value="$PROJECT_DIR$/organisation/OrganisationController.js" />
+        <option value="$PROJECT_DIR$/organisation/Organisation.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
@@ -241,7 +246,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547268787340</updated>
-      <workItem from="1547268788561" duration="5574000" />
+      <workItem from="1547268788561" duration="8009000" />
     </task>
     <task id="LOCAL-00001" summary="Created simple schema + server controller to interface with a local MongoDB 'ditto' for the /volunteer endpoint">
       <created>1547274548834</created>
@@ -250,19 +255,33 @@
       <option name="project" value="LOCAL" />
       <updated>1547274548834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created basic Organisation schema + controller">
+      <created>1547275086795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547275086795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixing Org schema to support listings">
+      <created>1547283044143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547283044143</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5574000" />
+    <option name="totallyTimeSpent" value="8009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12335266" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -285,7 +304,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created simple schema + server controller to interface with a local MongoDB 'ditto' for the /volunteer endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created simple schema + server controller to interface with a local MongoDB 'ditto' for the /volunteer endpoint" />
+    <MESSAGE value="Created basic Organisation schema + controller" />
+    <MESSAGE value="Fixing Org schema to support listings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Org schema to support listings" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.babelrc">
@@ -323,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/volunteer/Volunteer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="32" lean-forward="true" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/volunteer/VolunteerController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="943">
@@ -340,14 +354,21 @@
     <entry file="file://$PROJECT_DIR$/organisation/Organisation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteer/Volunteer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/organisation/OrganisationController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="115">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>

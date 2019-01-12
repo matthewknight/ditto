@@ -1,0 +1,11 @@
+.home-background {
+    height: calc(100% - 64px); background-size: cover; width: auto;
+    background-image: url('~src/assets/images/home-background.jpg');
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.center {
+    width: 800px;
+}
