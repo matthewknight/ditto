@@ -4,7 +4,7 @@ import {RegisterComponent} from './register/register.component';
 import {IndividualComponent} from './register/individual/individual.component';
 import {OrganisationComponent} from './register/organisation/organisation.component';
 import {HomeComponent} from './home/home.component';
-import {PageNotFoundComponent} from "./page-not-found/page-not-found.component";
+import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full'},
