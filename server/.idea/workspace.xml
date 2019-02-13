@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e776429d-6318-4b0f-bc12-0930deebb922" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../web-frontend/src/app/ServerConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web-frontend/src/app/models/Volunteer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organisation/OrganisationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/organisation/OrganisationController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/volunteer/VolunteerController.js" beforeDir="false" afterPath="$PROJECT_DIR$/volunteer/VolunteerController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/individual/individual.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/individual/individual.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/individual/individual.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/individual/individual.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/individual/individual.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/individual/individual.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/register.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/register.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/register.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-frontend/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/organisation/organisation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/organisation/organisation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/organisation/organisation.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/organisation/organisation.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/app/register/organisation/organisation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/app/register/organisation/organisation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web-frontend/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../web-frontend/src/polyfills.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,13 +68,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+            <state relative-caret-position="460">
+              <caret line="20" column="109" selection-start-line="20" selection-start-column="109" selection-end-line="20" selection-end-column="109" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/volunteer/Volunteer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -86,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/organisation/Organisation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="207">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
@@ -95,17 +95,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/organisation/OrganisationController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="184">
+              <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/volunteer/VolunteerController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-end-line="65" />
+            <state relative-caret-position="46">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -142,17 +142,17 @@
         <option value="$PROJECT_DIR$/db.js" />
         <option value="$PROJECT_DIR$/volunteer/Volunteer.js" />
         <option value="$PROJECT_DIR$/organisation/Organisation.js" />
+        <option value="$PROJECT_DIR$/organisation/OrganisationController.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/volunteer/VolunteerController.js" />
-        <option value="$PROJECT_DIR$/organisation/OrganisationController.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="788" />
     <option name="y" value="27" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="width" value="1132" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -162,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,6 +238,9 @@
       <updated>1547268787340</updated>
       <workItem from="1547268788561" duration="8009000" />
       <workItem from="1549866332864" duration="2154000" />
+      <workItem from="1549939306412" duration="286000" />
+      <workItem from="1549946099877" duration="165000" />
+      <workItem from="1550025334660" duration="6013000" />
     </task>
     <task id="LOCAL-00001" summary="Created simple schema + server controller to interface with a local MongoDB 'ditto' for the /volunteer endpoint">
       <created>1547274548834</created>
@@ -264,18 +267,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10163000" />
+    <option name="totallyTimeSpent" value="16627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="27" width="1859" height="1053" extended-state="7" />
+    <frame x="788" y="27" width="1132" height="1053" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12745099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2110009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,7 +286,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,20 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/organisation/Organisation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -334,24 +323,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/volunteer/VolunteerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/organisation/OrganisationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -359,6 +334,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organisation/Organisation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/organisation/OrganisationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="56" selection-start-line="56" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="109" selection-start-line="20" selection-start-column="109" selection-end-line="20" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/volunteer/VolunteerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,16 @@ router.use(bodyParser.json());
 const Volunteer = require('./Volunteer');
 
 router.post('/', (req, res) => {
+    Volunteer.find({ email : req.body.email.toLowerCase()}, (err, volunteers) => {
+        if (err) {
+            return res.status(500).send("Error Volunteer.find on DB");
+        } else {
+            if (volunteers.length > 0) {
+                return res.status(303).send("Account already exists");
+            }
+        }
+    });
+
    Volunteer.create({
        firstName : req.body.firstName,
        lastName : req.body.lastName,
